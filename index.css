@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;600&display=swap');
+
+/*General Styles*/
+
+body {
+	font-family:  'Roboto Mono' , monospace;
+
+}
+
+
+
+
+.menu {
+	position: absolute;
+
+	top: 10px;
+	right:  10px;
+
+	width: 50px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#nav {
+	position:  absolute;
+	top: 50px;
+	right: 50px;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+}
+
+img.menu:hover {
+	cursor: pointer;
+}
+
+h1 {
+	color: #0D98BA;
+
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin: 10px;
+	padding: 10px;
+	text-align:center;
+	}
+
+canvas {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin: 10px;
+	padding: 10px;
+}
+
+
+/*Index Page*/
+
+.indexBg {
+	background-image: url("img/000038.jpg");
+	background-size: contain;
+
+}
+
+.aboutBg {
+	background-image: url("img/F1000003.JPG") ;
+	background-size: contain;
+
+}
+
+.writingBg {
+	background-image: url("img/000049.JPG") ;
+	background-size: contain;
+}
+
+.photographyBg {
+	background-image: url("img/022.jpg") ;
+	background-size: contain;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 580px) {
+	body {
+		font-size:  0.8em;
+	}
+}
+
+@media only screen and (max-width: 389px) {
+	div {
+		padding: 20px;
+		padding-top:  35px;
+
+	}
+
+
+}
+
+/* .highlightme { background-color:#FFFF00; }
+p { background-color:#FFFFFF; }
